@@ -14,7 +14,7 @@ $totals = [];
 for ($c = 1; $c <= 15; $c++){
     $subtotal = $cost * $c;
     $discount = (($cost/100) * ($c * 4));
-    $total[$c]= $subtotal - $discount;
+    $totals[$c]= $subtotal - $discount;
 }
 ?>
 
@@ -65,4 +65,5 @@ for ($c = 1; $c <= 15; $c++){
 
     
 </body>
+
 </html>
